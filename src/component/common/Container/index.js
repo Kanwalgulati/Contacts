@@ -4,7 +4,7 @@ import styles from './styles';
 
 const Container = ({style, children}) => {
   return (
-    <ScrollView>
+    <ScrollView showsVerticalScrollIndicator={false}>
       <View style={[styles.wrapper, style]}>{children}</View>
     </ScrollView>
   );

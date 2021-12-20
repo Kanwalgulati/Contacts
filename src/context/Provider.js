@@ -1,10 +1,11 @@
 import React, {createContext, useReducer} from 'react';
-import auth from './reducers/auth';
 import authInitialState from './initialStates/authState';
-import ContactsInitialState from './initialStates/authState';
+import ContactsInitialState from './initialStates/contactsState';
+import auth from './reducers/auth';
 import contacts from './reducers/contacts';
 
-export const GlobalContext = createContext();
+export const GlobalContext = createContext({});
+
 const GlobalProvider = ({children}) => {
   const [authState, authDispatch] = useReducer(auth, authInitialState);
   const [contactsState, ContactsDispatch] = useReducer(

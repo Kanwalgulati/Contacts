@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "592528867783",
+    "project_id": "contacts-4d7d9",
+    "storage_bucket": "contacts-4d7d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592528867783:android:2476519dc6dc44251359e2",
+        "android_client_info": {
+          "package_name": "com.reactnativecontacts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592528867783-89s3nsu3v3agfa1ud5c7k8c49ed8uaqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt1kNmtiJwVcrIR_pAfDxmjfVR3kq67sg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592528867783-89s3nsu3v3agfa1ud5c7k8c49ed8uaqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

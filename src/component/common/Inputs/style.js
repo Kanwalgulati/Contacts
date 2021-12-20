@@ -13,6 +13,7 @@ export default styles = StyleSheet.create({
   },
   textInput: {
     flex: 1,
+    width: '100%',
   },
   error: {color: colors.danger, paddingTop: 4, fontSize: 12},
 });
